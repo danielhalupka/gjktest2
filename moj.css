@@ -1,0 +1,38 @@
+.mojDiv{
+    background-color: red;
+    height: 150px;
+    border: 1px solid black;
+}
+
+#volaco{
+    background-color: green;
+}
+
+@media screen and (min-width:764px){
+    .mojDiv{
+        background-color: blue;
+    }
+}
+
+.moj-fancy-button {
+    font-size: 24px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background: deeppink;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.moj-fancy-button:hover {
+    color: deeppink;
+    background: white;
+}
+
+body {
+    background: gray;
+}
+
+#rezultat{
+    color: green;
+}
